@@ -1,0 +1,30 @@
+{
+  "name": "merng-project",
+  "version": "1.0.0",
+  "description": "A simple social app using MERNG using apollo serversys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon -r dotenv/config index.js",
+    "server": "node index.js"
+  },
+  "keywords": [],
+  "author": "1ogicbr0",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.10.2",
+    "bcrypt": "^5.0.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "graphql": "^16.6.0",
+    "graphql-subscriptions": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.3",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.18.10"
+  }
+}
